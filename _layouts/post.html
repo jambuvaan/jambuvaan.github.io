@@ -23,7 +23,10 @@ layout: default
     <h2>{{ page.title }} </h2>
 </div>
     
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="post_info">
+    <div class="row">Written by {{page.author}} </div>
+    <div class="row meta">{{ page.date | date_to_string }}</div>
+</div>
 
 <div class="post">
 {{ content }}

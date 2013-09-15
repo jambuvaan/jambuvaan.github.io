@@ -12,7 +12,9 @@ title: Your New Jekyll Site
             <h4> <strong> <a href="{{ post.url }}">{{ post.title }}</a> </strong> </h4> 
             <p> {{ post.excerpt }} </p>
             <p>
-                    <i class="icon-calendar"></i> {{ post.date | date: "%B %e, %Y" }}
+
+                    <i class="icon-pencil"></i> {{ post.author }} 
+                    |<i class="icon-calendar"></i> {{ post.date | date: "%B %e, %Y" }}
                     | <i class="icon-comment"></i> <a href="http://blog.jambuvaan.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>     
                     </p>
         </div>
