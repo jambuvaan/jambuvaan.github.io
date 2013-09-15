@@ -1,1 +1,4 @@
+*.swp
+*.swo
 _site
+Gemfile.lock
