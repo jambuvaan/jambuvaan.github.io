@@ -1,0 +1,68 @@
+.content {
+  font-size: 115%;
+  text-align: justify;
+  width: 42em;
+  margin: 0 auto 2em;
+  line-height: 1.5em;
+}
+
+.header{
+    margin-top: 50px;
+    border-bottom: 1px solid #222;
+}
+
+.masthead h1{
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.hidden{
+    display: none
+}
+
+.footer{
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.contact{
+    padding-top: 10px;
+}
+
+.posts{
+    list-style: none;
+}
+
+.posts li{
+    border-bottom: 1px solid #222;
+    margin: 5px 0px;
+}
+
+.blogpost{
+    margin: 10px 0px;
+    font-size: 80%;
+}
+
+.social{
+    margin-top: 15px;
+}
+
+.social ul{
+    list-style: none;
+    padding 0;
+}
+
+.social ul li {
+    display: inline;
+}
+
+.navhdr{
+    border-bottom: 1px solid #222;
+    margin 10px 0;
+}
