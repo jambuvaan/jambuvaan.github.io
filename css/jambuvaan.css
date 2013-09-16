@@ -1,9 +1,8 @@
 .content {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
   margin: 0 auto 2em;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 .header{

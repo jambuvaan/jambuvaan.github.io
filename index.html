@@ -4,21 +4,23 @@ title: Your New Jekyll Site
 ---
 
 <div class="row-fluid" id="home">
-  <h3>Blog Posts</h3>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li>
-        <div class="blogpost span12">
-            <h4> <strong> <a href="{{ post.url }}">{{ post.title }}</a> </strong> </h4> 
-            <p> {{ post.excerpt }} </p>
-            <p>
+  <div class="offset2 span8">
+      <h3>Blog Posts</h3>
+      <ul class="posts">
+        {% for post in site.posts %}
+        <li>
+            <div class="blogpost">
+                <h4> <strong> <a href="{{ post.url }}">{{ post.title }}</a> </strong> </h4> 
+                <p> {{ post.excerpt }} </p>
+                <p>
 
-                    <i class="icon-pencil"></i> {{ post.author }} 
-                    |<i class="icon-calendar"></i> {{ post.date | date: "%B %e, %Y" }}
-                    | <i class="icon-comment"></i> <a href="http://blog.jambuvaan.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>     
-                    </p>
-        </div>
-    </li>
-    {% endfor %}
-  </ul>
+                        <i class="icon-pencil"></i> {{ post.author }} 
+                        |<i class="icon-calendar"></i> {{ post.date | date: "%B %e, %Y" }}
+                        | <i class="icon-comment"></i> <a href="http://blog.jambuvaan.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>     
+                        </p>
+            </div>
+        </li>
+        {% endfor %}
+      </ul>
+  </div>
 </div>
