@@ -3,12 +3,12 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-<div id="home">
+<div class="row-fluid" id="home">
   <h3>Blog Posts</h3>
   <ul class="posts">
     {% for post in site.posts %}
     <li>
-        <div class="blogpost">
+        <div class="blogpost span12">
             <h4> <strong> <a href="{{ post.url }}">{{ post.title }}</a> </strong> </h4> 
             <p> {{ post.excerpt }} </p>
             <p>
