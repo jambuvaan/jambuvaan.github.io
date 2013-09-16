@@ -2,3 +2,6 @@ name: Jambuvaan Blog
 markdown: redcarpet
 pygments: true
 url: blog.jambuvaan.com
+description: Blog posts about indian trade, exports and imports from jambuvaan.com
+rss_post_limit: 25
+permalink: /:categories/:title

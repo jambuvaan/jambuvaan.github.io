@@ -1,0 +1,1 @@
+../../jekyll-plugins/jekyll-sitemap/sitemap_generator.rb
