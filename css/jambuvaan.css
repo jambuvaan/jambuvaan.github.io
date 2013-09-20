@@ -1,9 +1,8 @@
 .content {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
   margin: 0 auto 2em;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 .header{
@@ -40,7 +39,6 @@
 }
 
 .posts li{
-    border-bottom: 1px solid #222;
     margin: 5px 0px;
 }
 
@@ -71,3 +69,4 @@
     font-size: 80%;
     margin-bottom: 10px;
 }
+
