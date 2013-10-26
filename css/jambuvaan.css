@@ -5,6 +5,14 @@
   line-height: 1.5;
 }
 
+
+#jambuvaan{
+  background-image: url('/img/logo.png');
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .header{
     margin-top: 50px;
     border-bottom: 1px solid #222;
